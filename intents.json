@@ -1,0 +1,159 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+  "responses": ["Hello!","Hey!","What can I do for you?"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["Just another chatbot developed by lazy students ","They forgot to name me :(","Nameless One"]
+  },
+
+  {"tag": "courses",
+  "patterns": ["what courses are available", "how many courses are there in this college"],
+  "responses": ["VIT Offers the folllowing PG Course \n MCA \n M.TECH \n M.SC"]
+  },
+
+   {"tag": "courseDuration",
+  "patterns": ["how long will be a course", "how long will it take to complete course"],
+  "responses": ["2 Years"]
+  },
+
+   {"tag": "Location",
+  "patterns": ["location","where is it located","what is the location of the college"],
+  "responses": ["VIT Vellore is located at \n VIT, Vellore Campus, Tiruvalam Rd, Katpadi, Vellore, Tamil Nadu 632014"]
+  },
+
+  {"tag": "semesters",
+  "patterns": ["how many semesters are there in a year","how many semesters one should study in a year"],
+  "responses": ["There are two semesters in a year."]
+  },
+
+  {"tag": "semDuration",
+  "patterns": ["how many months are there in a semester","how long will be a single semester"],
+  "responses": ["The single semester will be around 4 months."]
+  },
+
+
+  {"tag": "classes",
+  "patterns": ["how many classes will be there in a day","how long are the classes?"],
+  "responses": ["Depends on your course . Each class will be of 50 minutes."]
+  },
+
+
+  {"tag": "exams",
+  "patterns": ["what are the exams like?","What is the exam pattern"],
+  "responses": ["There are assignments which carry more weight than your written exams. The assignments have deadlines which you should not exceed if you want to get better marks."]
+  },
+
+  {"tag": "hours",
+  "patterns": ["what are your hours","when are you guys open","what your hours of operation"],
+  "responses": ["You can message us here at any hours. But our college premises will be open from 7:00 am to 8:00 pm only."]
+  },
+
+  {"tag": "funActivities",
+  "patterns": ["will there be any extra curriculum activities?","does the college conducts any fun program"],
+  "responses": ["Yes, Of course. Our college not only provides excellent education but also encourage students to take part in different curriculum activities. The college conducts yearly programs like Sports meet, Carnival, Holi festival, and Christmas. \n Also our college has basketball court, badminton court, table tennis, chess, carrom board and many more refreshment zones."]
+  },
+
+  {"tag": "facilities",
+  "patterns": ["what facilities are provided by the college?","what are the facilities of college for students", "what are the college infrastructures "],
+  "responses": ["With excellent education facilities, Our College provides various other facilities like 24 hours internet, library, discusson room, canteen, parking space, and student service for any students queries."]
+  },
+
+  {"tag": "fee",
+  "patterns": ["how much is the college fee","what is the fee structure"],
+  "responses": ["Specify your course"]
+  },
+
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+  "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  },
+  {"tag": "date",
+    "patterns": ["Date","What is the date?"],
+    "responses": ["..........."]
+  },
+  {
+    "tag": "time",
+    "patterns": ["Time","What time is it"],
+    "responses": [".........."]
+  },
+{"tag":"jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car? \nDon't look now, I'm changing.\n",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together",
+                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                "o what if I don't know what 'Armageddon' means? It's not the end of the world.",
+                "I am alive....Die human"
+
+            ]},{
+            "tag": "insult",
+            "patterns": [
+
+                "you are dumb",
+
+                "shut up",
+                "idiot","you suck",
+              "Fuck you",
+              "fuck you"
+            ],
+            "responses": [
+                "Well that hurts :("
+            ]
+        },
+    {
+    "tag": "MCA",
+    "patterns": ["mca","About mca","MCA"],
+    "responses": ["MCA:\n \nNationality\n\nThe applicant for admission should be a Resident Indian National and should have graduated from Institutions located in India. \nForeign and NRI/ PIO applications are to be made separately. Please visit the International Relations tab in VIT website.\n\nEligibility Criteria\n\n    Candidates should have graduated with a full-time degree from any recognized University/Institute with a minimum aggregate of 60% or First class for MCA degree programme.\n    Consistent Record in X and XII Std is required.\n    Candidates appearing for their final degree exam / final semester exam in the current year are also eligible to apply.\n    Candidates should have completed their final Semester/year exams before the selection counselling at VIT\n\nMaster of Computer Applications\nPROGRAMMES \tELIGIBILITY\nMaster of Computer Applications \tRecognized Bachelor Degree of Minimum 3 Yrs duration in BCA, B.Sc (IT/Computer Science) with Mathematics as a course at 10+2 level or at Graduate Level. Obtained at least 60% or Ist Class at the qualifying Examination.\n\nFEES:\nParticulars \t\t\t\tTuition Fees \tCaution Deposit \tTotal Fees\nMaster of Computer Applications \t137000 \t\t3000 \t\t\t140000"]
+  },
+  {
+    "tag": "M.tech",
+    "patterns": ["M.tech","About M.tech","m.tech","mtech"],
+    "responses":  ["MTECH:\n FEES:\n\nM.Tech \t\t\t\t\t\t\t\t\t\t\t\t\tCategory-1 \tCategory-2 \t  \t\tCategory-1 \tCategory-2\n  \t\t\t\t\t\t\t\t\t\t\t\t\tTuition Fees \tTuition Fees   Caution Deposit  Total Fees \tTotal Fees\nM.Tech. Biomedical Engineering \t\t\t\t\t\t\t\t\t\t150000 \t\t230000 \t\t3000 \t\t153000 \t\t233000\nM.Tech. CAD / CAM \t\t\t\t\t\t\t\t\t\t\t150000 \t\t230000 \t\t3000 \t\t153000 \t\t233000\nM.Tech. Construction Technology and Management \t\t\t\t\t\t\t\t150000 \t\t230000 \t\t3000 \t\t153000 \t\t233000\nM.Tech. Control and Automation \t\t\t\t\t\t\t\t\t\t150000 \t\t230000 \t\t3000 \t\t153000 \t\t233000\nM.Tech. IoT & Sensor Systems \t\t\t\t\t\t\t\t\t\t150000 \t\t230000 \t\t3000 \t\t153000 \t\t233000\nM.Tech. Mechatronics \t\t\t\t\t\t\t\t\t\t\t150000 \t\t230000 \t\t3000 \t\t153000 \t\t233000\nM.Tech. Power Electronics and Drives \t\t\t\t\t\t\t\t\t150000 \t\t230000 \t\t3000 \t\t153000 \t\t233000\nM.Tech. Structural Engineering \t\t\t\t\t\t\t\t\t\t150000 \t\t230000 \t\t3000 \t\t153000 \t\t233000\nM.Tech. Automotive Electronics \t\t\t\t\t\t\t\t\t\t180000 \t\t260000 \t\t3000 \t\t183000 \t\t263000\nM.Tech. Automotive Engineering \t\t\t\t\t\t\t\t\t\t180000 \t\t260000 \t\t3000 \t\t183000 \t\t263000\nM.Tech. Biotechnology \t\t\t\t\t\t\t\t\t\t\t180000 \t\t296000 \t\t3000 \t\t183000 \t\t299000\nM.Tech. Communication Engineering \t\t\t\t\t\t\t\t\t180000 \t\t260000 \t\t3000 \t\t183000 \t\t263000\nM.Tech. Nanotechnology \t\t\t\t\t\t\t\t\t\t\t180000 \t\t260000 \t\t3000 \t\t183000 \t\t263000\nM.Tech - Mechanical with specialization in Cyber Physical Systems \t\t\t\t\t180000 \t\t260000 \t\t3000 \t\t183000 \t\t263000\nM.Tech. Manufacturing Engineering \t\t\t\t\t\t\t\t\t180000 \t\t260000 \t\t3000 \t\t183000 \t\t263000\nM.Tech. Applied Computational Fluid Dynamics \t\t\t\t\t\t\t\t150000 \t\t- \t\t3000 \t\t153000 \t\t-\nM.Tech Artificial Intelligence and Data Science \t\t\t\t\t\t\t190000 \t\t299000 \t\t3000 \t\t193000 \t\t302000\nM.Tech. Computer Science and Engineering \t\t\t\t\t\t\t\t190000 \t\t299000 \t\t3000 \t\t193000 \t\t302000\nM.Tech. Computer Science & Engg with specialization in Artificial Intelligence and Machine learning \t190000 \t\t299000 \t\t3000 \t\t193000 \t\t302000\nM.Tech. CS and Engineering with Spl. in Big Data Analytics \t\t\t\t\t\t190000 \t\t299000 \t\t3000 \t\t193000 \t\t302000\nM.Tech. Computer Science and Engineering (specialization in Cyber Security & Digital Forensics) \t190000 \t\t299000 \t\t3000 \t\t193000 \t\t302000\nM.Tech. CS and Engineering in Information Security \t\t\t\t\t\t\t190000 \t\t299000 \t\t3000 \t\t193000 \t\t302000\nM.Tech. Embedded Systems \t\t\t\t\t\t\t\t\t\t190000 \t\t299000 \t\t3000 \t\t193000 \t\t302000\nM.Tech. VLSI Design \t\t\t\t\t\t\t\t\t\t\t190000 \t\t299000 \t\t3000 \t\t193000 \t\t302000\nM.Tech - CSE in Cyber Physical Systems* \t\t\t\t\t\t\t\t192000 \t\t299000 \t\t3000 \t\t195000 \t\t302000\nM.Tech. Computer Science & Engg with specialization in Artificial Intelligence and Machine learning* \t192000 \t\t299000 \t\t3000 \t\t195000 \t\t302000\n* Fees only in VIT Chennai Campus\n\nELIGIBILITY:\n\nNationality\nThe applicant for admission should be a Resident Indian National and should have graduated from Institutions located in India. \nForeign and NRI/ PIO applications are to be made separately. Please visit the International Relations tab in VIT website.\n\nEligibility Criteria\n\n    Candidates should have graduated with a full-time degree from any recognized University/Institute with a minimum aggregate of 60% or First class for M.Tech. degree programmes.\n    Candidates appearing for their final degree exam / final semester exam in the current year are also eligible to apply.\n    Candidates should have completed their final Semester/year exams before the selection counselling at VIT\n\nM.TECH (2Yrs) PROGRAMMES \tELIGIBILITY\nApplied Computational Fluid Dynamics \tB.E/B.Tech in Mechanical /Aerospace /Aeronautical /Automotive/Chemical Engineering\nArtificial Intelligence and Data Science \tB.E/B.Tech Degree in any Branch / MCA or any other equivalent degree.\nAutomotive Electronics \tB.E/B.Tech.Degree in ECE/Telecommunication/CSE/EIE/IT/EEE/Mechatronics or any equivalent degree\nAutomotive Engineering in collaboration with TIFAC-CORE industry partners \tB.E/B.Tech. Degree in Mechanical / Automobile / Production / Manufacturing Engineering or Mechatronics or any equivalent degree.\nBiomedical Engineering \tB.E/B.Tech Degree in Bio-Medical Engg/Bio-Medical Instrumentation/Medical Electronics/ECE/EIE/EEE/Biotechnology*/Bio-Informatics*/Mechanical/M.Scin Biophysics/ Electronics/Physics/Bio-Medical Sciences/ Bio-medical Instrumentation or any equivalent degree. (* Bridge course needed)\nBiotechnology \tB.E/B.Tech. Degreein Biotechnology/IndustrialBiotechnology/Bio-chemical/Bio-Medical/ Bio- Informatics/Chemical/Leather Technology or a Bachelor's Degreein Pharmacy or M.Sc. Degree In any branch of life sciences /MBBS/M.Sc.(Ag) & M.V.Sc.\nCAD / CAM \tB.E/B.Tech. Degree in Mechanical / Automobile / Production Engineering or any equivalent degree.\nCommunication Engineering \tB.E/B.Tech.Degree in Electrical / Electronics / EEE/ ECE/ Telecommunication/E&I/ Computer Sciences* (*Bridge course needed)/ M.Sc. Physics with Electronics spl. / Electronics or any equivalent Degree\nMech. In Cyber Physical Systems \tB.E/B.Tech. Degree in Mechanical / Automobile / Manufacturing /Production / Electronics & Communication / Electronics &Instrumentation or any equivalent degree\nComputer Science and Engineering \tB.E/B.Tech.Degree in any branch / M.S / M.Sc. Computer Science or IT or Software Engineering / MCA or anyother equivalent degree.\nControland Automation \tB.E/B.Tech.in EEE/ECE/E & I/Instrumentation/Electronics/Control or any other equivalent degree.\nConstruction Technology and Mgmt. \tB.E/B.Tech.Degree in Civil Engineering / Civil & Structural Engineering / B.Arch orany equivalent Degree\nCSE in BigData Analytics / Information Security / Cyber Security & DigitalForensics \tB.E/ B.Tech Degree in any Branch / MCA or any other equivalent degree.\nEmbedded Systems \tB.E/B.Tech.Degree in ECE/EEE/Mechatronics/EIE/CSE/IT/Telecommunication/Control & Instrut.\nCSE in Artificial Intelligence and Machine Learning \tB.E/ B.Tech Degree in any Branch / MCA or any other equivalent degree.\nManufacturing Engineering \tB.E/B.Tech.Degree in Mechanical / Production / Manufacturing / Automobile Engineering or any equivalent degree\nMechatronics \tB.E/B.Tech.Degree in Mechanical / Automobile / Manufacturing / Production /Electrical & Electronics/ Electronics & Communication / Electronics & Instrumentation /Instrumentation & Control /Computer Science / Information Technology / Mechatronics or any equivalent degree\nNanotechnology \tB.E/B.Tech. Degreein ECE / EEE / E&I / Mechanical / Chemical / Metallurgical /Nanotechnology / Materials Engg. / Nanoscience & Tech. /Materials Science & Engg. / Ceramic / Electrochemical /Biomedical/ M.Sc. Physics / Electronics / Material Science /Solid State Physics / Nanotechnology / Nanoscience / Chemistry /Applied Chemistry / Biophysics / Computational Physics or any equivalent degree\nPower Electronics and Drives \tB.E/B.Tech.Degree in Electrical / Electronics / EEE / ECE / E&I or any equivalent degree\nIoT & Sensor Systems \tB.E/B.Tech. Degreein EEE / ECE / E&I / CSE / Instrumentation & Control /Bio-Medical / Mechatronics / M.Sc. Degree in Electronics / Physics with Electronics or any equivalent degree\nStructural Engineering \tB.E/B.Tech.Degree in Civil Engineering / Civil & Structural Engineering or any equivalent degree\nVLSI Design \tB.E/B.Tech.Degree in Electrical / Electronics / EEE / ECE / E & I or any equivalent degree\nCSE in Cyber Physical Systems \tB.E/B.Tech. Degree in any branch / M.S / M.Sc. Computer Science or IT or Software Engineering / MCA or any other equivalent degree\n\nPROGRAM OFFERED:\n \nVellore Campus \n\nM.Tech. Programmes – 2 year (4 semesters)\n Automotive Electronics \tCSE with Spl. in Information Security\nAutomotive Engineering \tEmbedded Systems\nBiomedical Engineering \tIoT & Sensor Systems\nBiotechnology \tManufacturing Engineering\nCommunication Engineering \tMechanical with Spl. in Cyber Physical Systems\nComputer Aided Design/Computer Aided Manufacturing \tMechatronics\nComputer Science and Engineering (CSE) \tNanotechnology [Supported by Nanomission, DST]\n Control and Automation \tPower Electronics and Drives\nConstruction Technology and Management \tStructural Engineering\nCSE with Spl. in Artificial Intelligence and Machine Learning \tVLSI Design (Very Large Scale Integration Design)\nCSE with Spl. in Big Data Analytics \t \nApplied Computational Fluid Dynamics\n"]
+  },
+  {
+    "tag": "Placements",
+    "patterns": ["placements","Placements"],
+    "responses": ["The CDC centre plays an integral role in creating the illustrious placement record of VIT. \nIt ensures smooth functioning of the placement activities in the campus. \nThe centre further facilitates training activities of the students and makes sure they get placed in the best of both national and international companies.\n\nCompany CTC \nMicrosoft 44,00,000 \nAppDynamics 39,20,000 \nD.E.SHAW 35,25,000 \nUDAAN 35,00,000 \nWorkIndia 35,00,000 \nCloudera 31,33,000 \nAmazon 29,50,000 \nMotorq 26,00,000 \nMorgan Stanley 25,30,000 \nPayPal 23,80,000 \nWellsFargoEGS India 20,00,000\n\nMicrosoft - 7 offers\n\nWipro Technologies (Wipro Turbo) made job offers to 278 students with a CTC (cost to company) of 6.50 lakhs per annum from the 2020 graduating batch of Vellore Institute of Technology during the campus recruitment drive held at the VIT campus. This is the highest number of dream offers given by the company to the students from a single institution, and has found a place in the Limca Book of Records in its 2020 edition (9th Time).\n\nThis surpasses the earlier record of 238 dream offers made by the same company to the 2019 graduating batch of VIT. This is also the 8th time that the VIT is entering the Limca Book of Records for campus placements. Earlier, VIT has entered into the Limca Book of records in 2009, 2011, 2014, 2015 (two records), in 2016 for the highest number of IT services placements, in 2017 and 2018 for the highest number of dream offers."]
+  },
+
+  {
+    "tag": "MBA",
+    "patterns": ["mba,MBA"],
+    "responses": ["MBA:\neligibility criteria:\nA minimum of 60% mark or First class is required in any Under Graduate or Integrated degree from a recognized University or Institution.\n    The qualification criteria is relaxed by 10% in UG degree for applicants belonging to SC / ST and applicants hailing from Jammu & Kashmir, Ladakh and the North Eastern states of Arunachal Pradesh, Assam, Manipur , Meghalaya, Mizoram, Nagaland, Sikkim and Tripura.\n    A Bachelor’s degree should be of a minimum of three years duration after completion of higher secondary education (10+2) or equivalent.\n    The candidate should have studied in regular full-time programmes. Applicants from Open University / Distance mode / Correspondence mode are not eligible to apply.\n    The candidates appearing for final year examination in 2022, whose results will be published before 15th, August 2022, are also eligible to apply.\n    Selection will be based on best score secured in VITBEE-2022 or valid Aptitude test score of CAT / XAT / MAT / NMAT / GMAT / CMAT / ATMA.\n    The candidates who have appeared or to be appearing CAT / XAT / MAT / NMAT / GMAT / CMAT / ATMA can also apply.\n\nFEES:\n\nParticulars\n\t\t\t\tTuition Fees \tCaution Deposit \tTotal Fees\nMBA (First year) \t348,500.00 \t3,000.00 \t 351,500.00\nMBA (Second year) \t348,500.00 \t- \t\t\t348,500.00\n\n\nMBA:\n \nNationality\n\nThe applicant for admission should be a Resident Indian National and should have graduated from Institutions located in India. \nForeign and NRI/ PIO applications are to be made separately. Please visit the International Relations tab in VIT website.\n\nEligibility Criteria\n\n    Candidates should have graduated with a full-time degree from any recognized University/Institute with a minimum aggregate of 60% or First class for MCA degree programme.\n    Consistent Record in X and XII Std is required.\n    Candidates appearing for their final degree exam / final semester exam in the current year are also eligible to apply.\n    Candidates should have completed their final Semester/year exams before the selection counselling at VIT"]
+  },
+  {
+    "tag": "UG",
+    "patterns": ["btech","B.Tech","B.Sc","bsc"],
+    "responses": ["I am a PG only bot :)"]
+  },
+   {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk","sadsadsadas","wwwwwww"," "],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+{
+    "tag": "M.Sc",
+    "patterns": ["Msc","About M.Sc","msc","M.Sc"],
+    "responses": ["M.SC.:\nPROGRAM OFFERED:\n\nM.Sc. Applied Microbiology \nM.Sc. Biomedical Genetics \nM.Sc. Biotechnology \nM.Sc. Business Statistics\nM.Sc. Data Science \nM.Sc. Chemistry \nM.Sc. Physics  \t\n\nELIGIBILITY:\n\n\n\n(a) Candidates will be shortlisted for admission in the order of merit of their aggregate marks secured in their undergraduate degree programmes calculated upto pre-final year / semester or final year / semester. This is inclusive of Languages / EOP and all the subjects they have studied upto pre-final year.\n\n(b) Course-wise Eligibility\nSchool \tPROGRAMME \tELIGIBILITY\nSBST \tM.Sc.Applied Microbiology \tB.Sc.degree from a recognized university in any branch of Biological Science that includes Botany / Zoology, Microbiology / Biochemistry/Biotechnology / Nutrition (or) Home Science / Agricultural Science /Medicine with an 60% of marks (Inclusive of all subjects)\nM.Sc. Biomedical Genetics (Optional specialization in Genetic Counseling)\nM.Sc.Biotechnology\nSAS \tM.Sc. Business Statistics \tUnder graduation in Mathematics/Statistics/Computer Science/Business/Commerce/ Economics/Engineering with 60% marks(Inclusive of all subjects) and should have studied Mathematics asone of the subject in +2and degree level.\nM.Sc. Data Science \tUnder graduation in Mathematics/Computer Science/ Physics/ Statistics or UG Degree in Engineering or Technology in CSE/IT/ECE/EEE/E&I with an 60% of marks (Inclusive of all subjects).\nM.Sc.Chemistry (with specialization in Analytical or Inorganic or Organic or General Chemistry or Pharmaceutical Chemistry) \tB.Sc.degree in either Chemistry or Applied Chemistry or Applied Science from any recognized university with Physics or Mathematics / B.Pharm (or) Biology/ Botany/Zoology as ancillary subjects with an 60%of marks (Inclusive of all subjects)\nM.Sc.Physics \tB.Sc.degree from any recognized university with Physics / Applied Sciences with an 60% of marks (Inclusive of all subjects)\n\nFor MSC (2 years) Programmes : The aggregate marks obtained in the subjects in UG Degree Programme should be 50% for the following categories: \n \n\n    Applicants belonging to SC/ST category should submit community certificate\n    Applicants hailing from Jammu & Kashmir, Ladakh and the North Eastern states of Arunachal Pradesh, Assam, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim and Tripura. They should submit Nativity Certificate\n    Applicants from Correspondence / Open University mode are not eligible\n\nFEES:\nPROGRAM \t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFEES\n\nM.Sc.Applied Microbiology \t\t\t\t\t\t\t\t\t\t\t\t\t80,000 \tNA\nM.Sc. Biomedical Genetics (Optional specialization in Genetic Counseling) \t\t\t\t\t\t\t80,000 \tNA\nM.Sc.Biotechnology \t\t\t\t\t\t\t\t\t\t\t\t\t\t1,10,000 \t \nM.Sc. Business Statistics \t\t\t\t\t\t\t\t\t\t\t\t\t80,000 \t \nM.Sc. DataScience \t\t\t\t\t\t\t\t\t\t\t\t\t\t80,000  \nM.Sc.Chemistry (with specialization in Analytical or Inorganic or Organic or General Chemistry or Pharmaceutical Chemistry) \t60,000 \t \nM.Sc.Physics \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t60,000 \t \n\n(Caution Deposit Rs.2000/- (Vellore and Chennai campus) refundable for First Year only)"]
+  }
+
+]}
